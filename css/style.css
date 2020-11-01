@@ -462,8 +462,7 @@ input:checked + label:after {
     -ms-flex-direction: column;
     flex-direction: column;
   }
-
-  .main-content {
+  .content .main__content {
     margin-left: 0;
   }
 }
@@ -498,4 +497,3 @@ input:checked + label:after {
     display: none;
   }
 }
-
