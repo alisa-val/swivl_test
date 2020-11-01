@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Synth</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__wrapper">
+            <a href="index.html" class="header__wrapper__logo"> <img src="./img/logo.svg" alt="header logo"></a>
+            <div class="header__wrapper__profile">
+                <p class="header__wrapper__profile__name">Arthur Wood</p>
+                <img src="./img/user-photo.png" alt="photo avtorized user" class="header__wrapper__profile__photo">
+                <img src="./img/icons/arrow.svg" alt="arrow with drop-down menu" class="header__wrapper__profile__menu ">
+                <img src="./img/icons/bell.svg" alt="notification icon" class="header__wrapper__profile__icon">
+                <img src="./img/icons/present.svg" alt="present box icon" class="header__wrapper__profile__icon">
+                <img src="./img/icons/medium.svg" alt="medium icon" class="header__wrapper__profile__icon">
+            </div>
+        </div>
+        <nav class="header_nav">
+            <ul class="header__nav__menu">
+                <li class="header__nav__menu__item"><a href="#!" class="header__nav__menu__link">Feed</a></li>
+                <li class="header__nav__menu__item"><a href="#!" class="header__nav__menu__link">Explore</a></li>
+                <li class="header__nav__menu__item"><a href="#!" class="header__nav__menu__link">Discussion</a></li>
+            </ul>
+        </nav>
+        <button class="header__button"><img src="./img/plus.png" class="header__button__plus" alt=""></button>
+    </header>
+    <div class="content">
+        <aside class="user">
+            <div class="user__info">
+                <img src="./img/user-avatar.png" alt="photo user page" class="user__info__avatar">
+                <div class="user__info__data">
+                    <h2 class="user__info__data__name">Benjamin<br>Clementine</h2>
+                    <a href="#!" class="user__info__data__link">@benclementine</a>
+                    <a href="#!" class="user__info__data__setting"><img src="./img/icons/pencil.svg" class="user__info__data__setting__icon" alt="edit profile pensil">Edit Profile</a>
+                </div>
+                <div class="user__info__action dropdown">
+                    <button onclick="myFunction()" class="dropbtn"></button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#" class="dropdown-content-link"> <img src="./img/icons/report_user.svg"
+                                class="dropdown-content-icon" alt="">Report user</a>
+                        <a href="#" class="dropdown-content-link"> <img src="./img/icons/block_user.svg"
+                                class="dropdown-content-icon" alt="">Block user</a>
+                    </div>
+                </div>
+            </div>
+            <div class="user__activity">
+                <p class="user__activity__category">
+                    <span class="user-activity__category__meter">45</span>
+                    synths
+                </p>
+                <p class="user__activity__category">
+                    <span class="user__activity__category__meter">110</span>
+                    followers
+                </p>
+                <p class="user__activity__category">
+                    <span class="user__activity__category__meter">322</span>
+                    following
+                </p>
+            </div>
+            <div class="user__describe">
+                <p>Cryptocurrencies including Ethereum, Ripple, and Litecoin have all plunged between 20 to 30 percent
+                    each, according to CoinMarketCap. Here is the latest Ripple price news and live updates on XRP,
+                    bitcoin and Ethereum.</p>
+            </div>
+        </aside>
+        <div class="main__content">
+            <div class="switcher">
+                <p class="switch__text">Public</p>
+                <input type="checkbox" id="switch">
+                <label class="switch__text" for="switch"></label>
+                <p class="switch__text">Privat</p>
+            </div>
+            <div class="posts">
+                <section class="post">
+                    <div class="post__body">
+                        <p class="post__body__text">
+                            New air routes that promise cheap flights in
+                        </p>
+                    </div>
+                    <div class="post__footer">
+                        <div class="post__footer__author">
+                            <img src="./img/author-avatar.png" class="post__footer__author__avatar" alt="Avatar post author">
+                            <p class="post__footer__author__name">Gregory Watkins</p>
+                        </div>
+                        <div class="post__footer__buttons">
+                            <button class="post__footer__buttons__button-share ">Share</button>
+                        </div>
+                    </div>
+                </section>
+                <section class="post">
+                    <div class="post__body">
+                        <p class="post__body__text">
+                            New air routes that promise cheap flights in
+                        </p>
+                    </div>
+                    <div class="post__footer">
+                        <div class="post__footer__author">
+                            <img src="./img/author-avatar.png" class="post__footer__author__avatar" alt="Avatar post author">
+                            <p class="post__footer__author__name">Gregory Watkins</p>
+                        </div>
+                        <div class="post__footer__buttons">
+                            <button class="post__footer__buttons__button-share">Share</button>
+                        </div>
+                    </div>
+                </section>
+                <section class="post">
+                    <div class="post__body">
+                        <p class="post__body__share">
+                            Shared to
+                            <span class="post__body__share__tag">#discussionaboutanimgttdds…</span>
+                        </p>
+                        <p class="post__body__text">
+                            New air routes that promise cheap flights in
+                        </p>
+                    </div>
+                    <div class="post__footer">
+                        <div class="post__footer__author">
+                            <img src="./img/author-avatar.png" class="post__footer__author__avatar" alt="Avatar post author">
+                            <p class="post__footer__author__name">Gregory Watkins</p>
+                        </div>
+                        <div class="post__footer__buttons">
+                            <button class="post__footer__buttons__button-view">
+                                <img src="./img/icons/icon_view.svg" alt="view icon" class="post__footer__buttons__button-view__icon">
+                                <span class="post__footer__buttons__button-view__counter">88</span>
+                            </button>
+                            <button class="post__footer__buttons__button-like">
+                                <img src="./img/icons/icon_like.svg" alt="heart icon" class="post__footer__buttons__button-like__icon">
+                                <span class="post__footer__buttons__button-like__counter">24</span>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+                <section class="post">
+                    <div class="post__body">
+                        <a href="#!" class="post__body__share__link">
+                            <img src="./img/icons/icon_link copy.svg" class="post__body__share__link__icon" alt="share icon">
+                            Shared via weblink
+                        </a>
+                        <p class="post__body__text">
+                            New air routes that promise cheap flights in
+                        </p>
+                    </div>
+                    <div class="post__footer">
+                        <div class="post__footer__author">
+                            <img src="./img/author-avatar.png" class="post__footer__author__avatar" alt="Avatar post author">
+                            <p class="post__footer__author__name">Gregory Watkins</p>
+                        </div>
+                        <div class="post__footer__buttons">
+                            <button class="post__footer__buttons__button-view">
+                                <img src="./img/icons/icon_view.svg" alt="view icon" class="post__footer__buttons__button-view__icon">
+                                <span class="post__footer__buttons__button-view__counter">88</span>
+                            </button>
+                            <button class="post__footer__buttons__button-like">
+                                <img src="./img/icons/icon_like.svg" alt="heart icon" class="post__footer__buttons__button-like__icon">
+                                <span class="post__footer__buttons__button-like__counter">24</span>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
